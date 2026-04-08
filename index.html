@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Endless Tools</title>
+  <meta name="description" content="No-coding tool to create 3D assets, key visual for social media, identity elements and other marketing and design need" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="nav-wrap">
+    <header class="site-header">
+      <a href="https://endlesstools.io/" class="logo-link" aria-label="Endless Tools home">
+        <img
+          src="https://endlesstools.io/_next/static/media/Logo.31673dfc.svg"
+          alt="Endless Tools"
+          width="130"
+          height="40"
+          class="logo"
+        />
+      </a>
+      <div class="header-actions">
+        <a class="btn btn-ghost" href="https://app.endlesstools.io/login">Sign in</a>
+        <a class="btn btn-muted" href="https://app.endlesstools.io/login">Start for free</a>
+      </div>
+    </header>
+  </div>
+
+  <main>
+    <section class="hero">
+      <div class="hero-inner constrain">
+        <div class="hero-copy">
+          <p class="display-title">Art direction<br />is now software.</p>
+          <p class="lead text-muted">
+            Templates for real-time 3D, motion and visual content. Fully customizable. Ready to use.
+          </p>
+        </div>
+        <a class="btn btn-primary" href="https://app.endlesstools.io/login">Start for free</a>
+      </div>
+      <div class="hero-masonry-wrap">
+        <div class="hero-masonry-inner">
+          <div class="hero-masonry" id="hero-masonry"></div>
+        </div>
+        <div class="hero-fade" aria-hidden="true"></div>
+      </div>
+    </section>
+
+    <section class="section constrain text-center">
+      <h2 class="section-title">A new way to create pro-level design content.</h2>
+      <p class="section-sub text-muted">Built to give you full control over the final look.</p>
+      <div class="video-frame">
+        <div class="video-aspect">
+          <video
+            class="section-video"
+            src="https://endlesstools.io/videos/main.mp4"
+            autoplay
+            muted
+            loop
+            playsinline
+          ></video>
+        </div>
+      </div>
+    </section>
+
+    <section class="section features">
+      <div class="constrain-wide">
+        <h2 class="section-title text-center">Everything you need for art-directed design.</h2>
+        <div class="feature-grid" id="feature-grid"></div>
+      </div>
+    </section>
+
+    <section class="section pricing">
+      <div class="constrain-narrow">
+        <div class="text-center">
+          <h2 class="section-title">Try it free before going PRO.</h2>
+          <p class="section-sub text-muted">Free 3-day trial with access to core features.</p>
+        </div>
+        <div class="billing-toggle" role="group" aria-label="Billing period">
+          <button type="button" class="billing-btn is-active" data-period="yearly" disabled>
+            Yearly <span class="pill">50% off</span>
+          </button>
+          <button type="button" class="billing-btn" data-period="monthly">Monthly</button>
+        </div>
+        <div class="pricing-cards">
+          <article class="price-card">
+            <div class="price-badge">FREE</div>
+            <p class="price-desc">
+              Basic access to core features for 3 days — explore, test, and play with Endless Tools.
+            </p>
+            <a class="btn btn-primary btn-block" href="https://app.endlesstools.io/login">Start for free</a>
+          </article>
+          <article class="price-card price-card-pro">
+            <div class="price-card-top">
+              <div class="price-badge price-badge-dark">PRO</div>
+              <div class="price-amount-block">
+                <div class="price-line">$24.99 /month</div>
+                <p class="price-billed text-muted">Billed annually $299.99</p>
+              </div>
+            </div>
+            <ul class="pro-list">
+              <li>
+                <strong>AI Generation</strong>
+                <span class="text-muted">500 AI credits /month<br />3D models • PBR textures • Variations • Style presets</span>
+              </li>
+              <li>
+                <strong>Export</strong>
+                <span class="text-muted">Commercial use, no watermarks<br />Up to 8K images • Video Export • USDZ • GLB • Web embeds • Alpha</span>
+              </li>
+              <li>
+                <strong>Visual Effects</strong>
+                <span class="text-muted">Real-time effects • Video textures • Stackable effects</span>
+              </li>
+              <li>
+                <strong>Assets</strong>
+                <span class="text-muted">3D import • Animated objects • Custom materials • Noun Project library</span>
+              </li>
+              <li>
+                <strong>Storage</strong>
+                <span class="text-muted">Project saving • Personal cloud</span>
+              </li>
+              <li>
+                <strong>Unlimited Access to Templates</strong>
+                <span class="text-muted">Full template library • Fully customizable • Regular updates</span>
+              </li>
+            </ul>
+            <a class="btn btn-gradient btn-block" href="https://app.endlesstools.io/login">Go PRO</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section testimonials">
+      <div class="constrain-wide">
+        <div class="text-center">
+          <h2 class="section-title">Created with Endless Tools</h2>
+          <p class="section-sub text-muted">
+            Used by freelancers and top agencies worldwide. Here’s what people create with Endless Tools.
+          </p>
+        </div>
+        <div class="tweet-scroller-wrap">
+          <div class="tweet-scroller" id="tweet-scroller"></div>
+          <div class="tweet-controls">
+            <button type="button" class="tweet-nav" id="tweet-prev" aria-label="Previous">
+              <svg width="8" height="14" viewBox="0 0 8 14" fill="none" aria-hidden="true">
+                <path d="M7 1L1 7l6 6" stroke="currentColor" stroke-width="1.5" />
+              </svg>
+            </button>
+            <div class="tweet-track" aria-hidden="true"><div class="tweet-track-fill" id="tweet-track-fill"></div></div>
+            <button type="button" class="tweet-nav" id="tweet-next" aria-label="Next">
+              <svg width="8" height="14" viewBox="0 0 8 14" fill="none" aria-hidden="true">
+                <path d="M1 1l6 6-6 6" stroke="currentColor" stroke-width="1.5" />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section newsletter constrain">
+      <h2 class="section-title text-center">Get updates on new templates and features</h2>
+      <form class="newsletter-form" action="#" method="get">
+        <input type="email" name="mail" class="input-email" placeholder="Your email" autocomplete="email" />
+        <button type="submit" class="btn btn-primary btn-block-sm">Stay updated</button>
+        <label class="consent">
+          <input type="checkbox" name="consent" />
+          <span class="consent-box" aria-hidden="true"></span>
+          <span>I agree to the <a href="https://app.endlesstools.io/legal/privacy_policy">Privacy Policy</a></span>
+        </label>
+      </form>
+    </section>
+
+    <footer class="site-footer">
+      <div class="footer-row">
+        <a href="mailto:hi@endlesstools.io">Get in touch</a>
+        <a href="https://www.instagram.com/endlesstools/">Instagram</a>
+        <a href="https://eu.linkedin.com/company/endless-tools">Linked In</a>
+        <a href="https://x.com/endlesstools">X</a>
+        <a href="https://www.tiktok.com/@endlesstools">TikTok</a>
+      </div>
+      <div class="footer-row">
+        <a href="https://app.endlesstools.io/legal/privacy_policy">Privacy policy</a>
+        <a href="https://app.endlesstools.io/legal/terms_of_use">Terms of use</a>
+      </div>
+      <p class="footer-copy">©EndlessTools 2026</p>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
