@@ -206,7 +206,7 @@ const HERO_TEMPLATES = [
     tags: ["brand", "advertisement"],
     ratio: "short",
     type: "video",
-    img: "https://ik.imagekit.io/zdaxgdi0x/jpeg.turbo-video/1_19.mp4?updatedAt=1775677515985",
+    img: "https://ik.imagekit.io/zdaxgdi0x/jpeg.turbo-video/1_13.mp4?updatedAt=1775677517958",
   },
   {
     title: "Eme Studio",
