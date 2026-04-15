@@ -149,7 +149,7 @@ main section[data-reveal].is-visible {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px var(--nav-pad-x);
+  padding: 40px var(--nav-pad-x);
 }
 
 @media (min-width: 768px) {
@@ -301,6 +301,10 @@ main section[data-reveal].is-visible {
   margin: 0 0 10px;
 }
 
+.text-pink {
+  color: #f3a6e8;
+}
+
 .lead {
   font-size: 15px;
   line-height: 1.5;
@@ -311,14 +315,21 @@ main section[data-reveal].is-visible {
 /* Masonry template grid (hero) — 18 cards, ~6 columns desktop, tight gutters */
 .hero-masonry-wrap {
   position: relative;
-  margin-top: 50px;
-  height: 4000px;
+  margin-top: 48px;
+  height: 2890px;
   overflow: hidden;
 }
 
 @media (min-width: 768px) {
   .hero-masonry-wrap {
-    height: 2000px;
+    height: 1800px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .hero-masonry-wrap {
+    height: 1900px;
+    
   }
 }
 
@@ -507,7 +518,7 @@ main section[data-reveal].is-visible {
   z-index: 3;
   left: 0;
   right: 0;
-  bottom: 0;
+  bottom: -1px;
   height: 120px;
   pointer-events: none;
   background: linear-gradient(180deg, transparent 0%, #000 88%);
@@ -982,7 +993,7 @@ main section[data-reveal].is-visible {
 }
 
 .newsletter .section-title {
-  max-width: 450px;
+  max-width: 650px;
   margin-bottom: 20px;
 }
 

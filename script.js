@@ -296,7 +296,7 @@ const TWEETS = [
     name: "Need a campaign?",
     handle: "@jpeg.turbo",
     avatar: `https://ik.imagekit.io/zdaxgdi0x/jpeg.turbo-clients/logos/you_logo.webp`,
-    html: "Feel free to reach out!",
+    html: "jpeg.turbo studio with love 💗",
     media: {
       type: "img",
       src: `https://ik.imagekit.io/zdaxgdi0x/jpeg.turbo-clients/images/j-rg.webp?updatedAt=1776283994190`,
