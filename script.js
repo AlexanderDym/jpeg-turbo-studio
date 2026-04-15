@@ -238,13 +238,13 @@ const HERO_TEMPLATES = [
 
 const TWEETS = [
   {
-    name: "PREDUBEZHDAI",
-    handle: "@predubezhdai",
-    avatar: `https://ik.imagekit.io/zdaxgdi0x/jpeg.turbo-clients/logos/predub_logo.png?updatedAt=1775679157888`,
-    html: `Thank you, for making this real. ❤️`,
+    name: "Warhaus band",
+    handle: "@warhausmusic",
+    avatar: `https://ik.imagekit.io/zdaxgdi0x/jpeg.turbo-clients/logos/warhaus_logo.webp`,
+    html: `Hell yeah! Love it!`,
     media: {
       type: "img",
-      src: `https://ik.imagekit.io/zdaxgdi0x/jpeg.turbo-clients/images/PREDUBEZHDAI.png?updatedAt=1775679101009`,
+      src: `https://ik.imagekit.io/zdaxgdi0x/jpeg.turbo-clients/images/LUVU__2.webp`,
     },
     ratio: "58.44%",
   },
@@ -252,7 +252,7 @@ const TWEETS = [
     name: "Argemaclub",
     handle: "@argemaclub",
     avatar: `https://ik.imagekit.io/zdaxgdi0x/jpeg.turbo-clients/logos/argema.png?updatedAt=1775679164480`,
-    html: "Graeat job jpeg.turbo studio!",
+    html: "Great job jpeg.turbo studio!",
     media: {
       type: "img",
       src: `https://ik.imagekit.io/zdaxgdi0x/jpeg.turbo-clients/logos/duality.png?updatedAt=1775679164478`,
@@ -260,13 +260,13 @@ const TWEETS = [
     ratio: "73.66%",
   },
   {
-    name: "Duality",
-    handle: "@duality",
-    avatar: `https://ik.imagekit.io/zdaxgdi0x/jpeg.turbo-clients/logos/duality.png?updatedAt=1775679164478`,
+    name: "Luvu",
+    handle: "@luvucosmetics",
+    avatar: `https://ik.imagekit.io/zdaxgdi0x/jpeg.turbo-clients/logos/luvu_logo.webp`,
     html: `great work by on the new campaign visuals!`,
     media: {
       type: "img",
-      src: `https://ik.imagekit.io/zdaxgdi0x/jpeg.turbo-clients/images/2.png?updatedAt=1775679101011`,
+      src: `https://ik.imagekit.io/zdaxgdi0x/jpeg.turbo-clients/images/LUVU__2.webp`,
     },
     ratio: "56%",
   },
@@ -282,17 +282,6 @@ const TWEETS = [
     ratio: "58.44%",
   },
   {
-    name: "Argemaclub",
-    handle: "@argemaclub",
-    avatar: `https://ik.imagekit.io/zdaxgdi0x/jpeg.turbo-clients/logos/argema.png?updatedAt=1775679164480`,
-    html: "Graeat job jpeg.turbo studio!",
-    media: {
-      type: "img",
-      src: `https://ik.imagekit.io/zdaxgdi0x/jpeg.turbo-clients/logos/duality.png?updatedAt=1775679164478`,
-    },
-    ratio: "73.66%",
-  },
-  {
     name: "Duality",
     handle: "@duality",
     avatar: `https://ik.imagekit.io/zdaxgdi0x/jpeg.turbo-clients/logos/duality.png?updatedAt=1775679164478`,
@@ -302,6 +291,17 @@ const TWEETS = [
       src: `https://ik.imagekit.io/zdaxgdi0x/jpeg.turbo-clients/images/2.png?updatedAt=1775679101011`,
     },
     ratio: "56%",
+  },
+  {
+    name: "Need a campaign?",
+    handle: "@jpeg.turbo",
+    avatar: `https://ik.imagekit.io/zdaxgdi0x/jpeg.turbo-clients/logos/you_logo.webp`,
+    html: "Feel free to reach out!",
+    media: {
+      type: "img",
+      src: `https://ik.imagekit.io/zdaxgdi0x/jpeg.turbo-clients/images/Warhause.webp`,
+    },
+    ratio: "73.66%",
   },
 ];
 
