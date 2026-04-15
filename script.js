@@ -244,7 +244,7 @@ const TWEETS = [
     html: `Hell yeah! Love it!`,
     media: {
       type: "img",
-      src: `https://ik.imagekit.io/zdaxgdi0x/jpeg.turbo-clients/images/LUVU__2.webp`,
+      src: `https://ik.imagekit.io/zdaxgdi0x/jpeg.turbo-clients/images/Warhause.webp?updatedAt=1776283994289`,
     },
     ratio: "58.44%",
   },
@@ -255,7 +255,7 @@ const TWEETS = [
     html: "Great job jpeg.turbo studio!",
     media: {
       type: "img",
-      src: `https://ik.imagekit.io/zdaxgdi0x/jpeg.turbo-clients/logos/duality.png?updatedAt=1775679164478`,
+      src: `https://ik.imagekit.io/zdaxgdi0x/jpeg.turbo-clients/images/3.png?updatedAt=1775679101040`,
     },
     ratio: "73.66%",
   },
@@ -299,7 +299,7 @@ const TWEETS = [
     html: "Feel free to reach out!",
     media: {
       type: "img",
-      src: `https://ik.imagekit.io/zdaxgdi0x/jpeg.turbo-clients/images/Warhause.webp`,
+      src: `https://ik.imagekit.io/zdaxgdi0x/jpeg.turbo-clients/images/j-rg.webp?updatedAt=1776283994190`,
     },
     ratio: "73.66%",
   },
