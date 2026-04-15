@@ -285,7 +285,7 @@ const TWEETS = [
     name: "Duality",
     handle: "@duality",
     avatar: `https://ik.imagekit.io/zdaxgdi0x/jpeg.turbo-clients/logos/duality.png?updatedAt=1775679164478`,
-    html: `great work by on the new campaign visuals!`,
+    html: `Fantastic experience working with you!`,
     media: {
       type: "img",
       src: `https://ik.imagekit.io/zdaxgdi0x/jpeg.turbo-clients/images/2.png?updatedAt=1775679101011`,
